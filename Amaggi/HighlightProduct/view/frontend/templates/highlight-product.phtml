@@ -1,19 +1,25 @@
+<?php
+
+/** @var $viewModel Amaggi\HighlightProduct\ViewModel\HighlightProduct */
+
+$viewModel = $block->getViewModel();
+$product = $viewModel->getProduct();
+?>
+
+<?php if($product): ?>
+
 <section class="highlight">
     <div class="highlight__card">
-        <h3 class="highlight__card__title">poliflex</h3>
+        <a class="highlight__card__title" href="<?= $block->escapeUrl($product->getProductUrl()); ?>"><?= $block->escapeHtml($product->getName()); ?></a>
         <figure class="highlight__card__image">
-            <img src="https://www.amaggion.com.br/media/catalog/product/1/6/163432_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
-            alt="poliflex"
-            >
+            <a class="highlight__card__title" href="<?= $block->escapeUrl($product->getProductUrl()); ?>">
+                <img src="<?= $escaper->escapeUrl($viewModel->getImage($product)) ?>"
+                alt="<?= $block->escapeHtml($product->getName()); ?>">
+            </a>
         </figure>
-        <p class="highlight__card__price">100,00</p>
-        <input class="highlight__card__qty" type="number" value="1" disabled>
-    </div>
-    <div class="highlight__banner">
-        <figure class="highlight__banner__image">
-            <img src="https://www.amaggion.com.br/media/wysiwyg/BANNER_SITE_810_284_px_.png"
-                alt="Amaggi banner"
-            >
-        </figure>
+        <p class="highlight__card__price"><?= $product->getFormatedPrice(); ?></p>
+        <input class="highlight__card__qty" type="number" value="<?= $viewModel->getStockQty($product); ?>" disabled>
     </div>
 </section>
+
+<?php endif; ?>
