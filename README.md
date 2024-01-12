@@ -11,14 +11,13 @@ composer require  amaggi/module-highlight-product
 -   PHP >= 7.3
 -   Magento2 >= 2.3 
 
-
 # Configuration
 
 After installation has completed go to **Stores** > **Settings** > **Configuration** > **Amaggi** > **Product** > **Product Sku**.
 
 Enter the SKU of the product you want to display as highlight.
 
-![Module Configuration](http://url/to/img.png)
+![Module Configuration](https://i.ibb.co/KK4mxDy/Xnip2024-01-12-15-35-59.jpg)
 
 # Highlight Product on Home Page
 
