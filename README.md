@@ -4,7 +4,7 @@ This module inserts a highlight product on the homepage. The product is inserted
 
 # Installation
 
-composer require  amaggi/module-highlight-product
+composer require  highlight/module-highlight-product
 
 # Requirements
 
@@ -13,11 +13,11 @@ composer require  amaggi/module-highlight-product
 
 # Configuration
 
-After installation has completed go to **Stores** > **Settings** > **Configuration** > **Amaggi** > **Product** > **Product Sku**.
+After installation has completed go to **Stores** > **Settings** > **Configuration** > **Highlight** > **Product** > **Product Sku**.
 
 Enter the SKU of the product you want to display as highlight.
 
-![Module Configuration](https://i.ibb.co/KK4mxDy/Xnip2024-01-12-15-35-59.jpg)
+![Module Configuration](https://i.ibb.co/CwxM0St/Xnip2024-02-01-09-34-28.jpg)
 
 # Highlight Product on Home Page
 

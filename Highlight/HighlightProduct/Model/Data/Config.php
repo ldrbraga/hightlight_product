@@ -1,6 +1,6 @@
 <?php
 
-namespace Amaggi\HighlightProduct\Model\Data;
+namespace Highlight\HighlightProduct\Model\Data;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 

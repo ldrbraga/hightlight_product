@@ -2,13 +2,13 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="amaggi" translate="label" sortOrder="10">
-            <label>Amaggi</label>
+        <tab id="highlight" translate="label" sortOrder="10">
+            <label>Highlight</label>
         </tab>
         <section id="hightlight_product" translate="label" type="text" sortOrder="300" showInDefault="1" showInWebsite="0" showInStore="0">
             <label>Product</label>
-            <tab>amaggi</tab>
-            <resource>Amaggi_HighlightProduct::config_product</resource>
+            <tab>highlight</tab>
+            <resource>Highlight_HighlightProduct::config_product</resource>
             <group id="configuration" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>Product Hightlight</label>
                 <field id="product_text" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">

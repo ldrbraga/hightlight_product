@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Amaggi\HighlightProduct\ViewModel;
+namespace Highlight\HighlightProduct\ViewModel;
 
-use Amaggi\HighlightProduct\Model\Data\Config;
+use Highlight\HighlightProduct\Model\Data\Config;
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Catalog\Helper\Image as ImageHelper;

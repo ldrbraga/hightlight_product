@@ -3,10 +3,10 @@
     <body>
         <referenceBlock name="content">
             <block name="highlight"
-                   template="Amaggi_HighlightProduct::highlight-product.phtml"
+                   template="Highlight_HighlightProduct::highlight-product.phtml"
                    before="-">
                 <arguments>
-                    <argument name="view_model" xsi:type="object">Amaggi\HighlightProduct\ViewModel\HighlightProduct</argument>
+                    <argument name="view_model" xsi:type="object">Highlight\HighlightProduct\ViewModel\HighlightProduct</argument>
                 </arguments>
             </block>
         </referenceBlock>
